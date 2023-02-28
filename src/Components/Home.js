@@ -11,6 +11,9 @@ function Home() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav >
               <Link className="nav-link hover-effect" to="/">Home</Link>
+              {/* <Link className="nav-link hover-effect" to="/ministries">Ministries</Link> */}
+              <Link className="nav-link hover-effect" to="/events">Events</Link>
+              <Link className="nav-link hover-effect" to="/about">About us</Link>
               <NavDropdown title="Ministries" id="basic-nav-dropdown">
                 <Link to="/kids" className="notUnderlined">
                   <NavDropdown.Item href="#action/3.1">
@@ -32,9 +35,9 @@ function Home() {
                     Men's group
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/ladiesgroup" className="notUnderlined">
+                <Link to="/womansgroup" className="notUnderlined">
                   <NavDropdown.Item href="#action/3.4">
-                    Ladies group
+                    Woman's group
                   </NavDropdown.Item>
                 </Link>
                 <Link to="/foodpantry" className="notUnderlined">
@@ -47,8 +50,6 @@ function Home() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              {/* <Link className="nav-link hover-effect" to="/ministries">Ministries</Link> */}
-              <Link className="nav-link hover-effect" to="/events">Events</Link>
               <NavDropdown title="Donate" id="basic-nav-dropdown">
                   <NavDropdown.Item href="https://www.paypal.com/donate?token=dAPUbR6l-8mcvWRdRvxLGBSAqI6Cbs4eHsT276tLRzHpL-IdjwQrm2uXC07XZMmK97Y9SRiPCcQRuLyN" target="_top">
                     Paypal

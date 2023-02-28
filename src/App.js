@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from './Components/About';
 import Donate from './Components/Donate';
 import Events from './Components/Events';
 import Foodpantry from './Components/Foodpantry';
@@ -26,7 +27,8 @@ function App() {
           <Route path='/donate' element={<Donate/>} />
           <Route path='/events' element={<Events/>} />
           <Route path='/mensgroup' element={<Mens/>}/>
-          <Route path='/ladiesgroup' element={<Ladies/>}/>
+          <Route path='/womansgroup' element={<Ladies/>}/>
+          <Route path='/about' element={<About/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
