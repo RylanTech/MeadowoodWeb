@@ -10,6 +10,7 @@ import Kids from './Components/Kids';
 import Ladies from './Components/ladies';
 import Mens from './Components/mens';
 import Ministries from './Components/Ministries';
+import Schedule from './Components/Schedule';
 import Youngadults from './Components/Youngadults';
 import Youth from './Components/Youth';
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/mensgroup' element={<Mens/>}/>
           <Route path='/womansgroup' element={<Ladies/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/schedule' element={<Schedule/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

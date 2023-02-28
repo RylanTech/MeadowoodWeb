@@ -85,6 +85,46 @@ width: 100%;
   color: #d3df65 ;
 }
 
+/* ministries */
+.crd {
+  background-color: #2EB0EA!important;
+  border-radius: 20px;
+}
+.slideImg {
+  height: 650px;
+  opacity: 50%;
+}
+.slideLabel {
+  font-size: 55px;
+  position: relative; top: -250px;
+}
+.slideText {
+  position: relative; top: -100px
+}
+.miniPara {
+  background-color: #2EB0EA;
+  padding: 20px;
+  /* border-radius: 20px; */
+}
+.clock2 {
+  margin-top: 10px;
+}
+.miniHeader {
+  margin: 200px 0px;
+  font-size: 30px;
+}
+.miniRow3{
+  background-color: white;
+}
+.r3Text {
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+}
+.cara {
+  max-width: 1400px;
+}
+
 /* Photo fading */
 .fadein {
   position: relative;
@@ -124,6 +164,9 @@ width: 100%;
   .fpcard {
     margin: 30px 0px;
   }
+  .slideImg {
+    height: 800px;
+  }
   .heading {
     padding: 20px;
     font-size: 30px;
@@ -134,11 +177,22 @@ width: 100%;
     .nav-img {
         width: 35%;
     }
+    .slideImg {
+      height: 1000px;
+    }
     .navbar-collapse {
         display: flex;
         flex-direction: row-reverse;
     }
     .heading {
       font-size: 40px;
+    }
+    .miniHeader {
+      font-size: 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .slideImg {
+      height: 1200px;
     }
 }
