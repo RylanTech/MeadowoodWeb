@@ -1,0 +1,144 @@
+* {
+  color: white;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+/* Navbar */
+.nav-img {
+    width: 50%;
+}
+.navbar {
+  background-color: white;
+}
+
+/* Page 1 */
+.first-page {
+    color: white;
+}
+.fpr1 {
+  /* margin-top: 10px; */
+}
+.fpr2 {
+  margin-top: 70px;
+}
+.fpr3 {
+  margin-top: 70px;
+}
+.fpr4 {
+  margin-top: 100px;
+}
+.fpcard {
+  margin: 20px 0px;
+}
+.fpimgMain {
+  margin: 30px 0px;
+}
+.heading {
+  font-size: 20px;
+  background-color: #2EB0EA;
+  color: #d3df65;
+  padding: 7px;
+  width: 250px;
+} 
+.fphimg {
+width: 100%;
+}
+.containImg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.positioning1 {
+  position: absolute;
+  margin-top: 10px;
+  z-index: 2;
+}
+.ytLink {
+  text-decoration: none;
+  color: white;
+}
+.ytLink2 {
+  margin: 80px 0px;
+}
+.ytLink3 {
+  font-size: 50px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 15px 40px;
+  border-radius: 25px;
+}
+.ytLink3:hover {
+  background-color: aliceblue;
+}
+.ytLinkText {
+  margin-top: 30px;
+}
+.notUnderlined {
+  text-decoration: none;
+}
+.fprow {
+  /* background-color: #2EB0EA; */
+  background-color: black;
+}
+.makeGreen {
+  color: #d3df65 ;
+}
+
+/* Photo fading */
+.fadein {
+  position: relative;
+}
+.fadein img {
+  width: 100%;
+  opacity: 1;
+  margin: 40px 0px;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+}
+.fadein:hover img {
+  opacity: 0.3;
+}
+.fadein .text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  color: #000;
+  padding: 10px;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease;
+}
+.fadein:hover .text {
+  opacity: 1;
+}
+
+@media (min-width:768px) {
+  /* .fpimgMain {
+    margin: 0px 0px;
+  } */
+  .fpcard {
+    margin: 30px 0px;
+  }
+  .heading {
+    padding: 20px;
+    font-size: 30px;
+    width: 600px;
+  }
+}
+@media (min-width: 992px) {
+    .nav-img {
+        width: 35%;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .heading {
+      font-size: 40px;
+    }
+}
