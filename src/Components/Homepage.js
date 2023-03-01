@@ -1,4 +1,4 @@
-import { Card, Container, Row } from "react-bootstrap"
+import { Container, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
 function Homepage() {
@@ -20,11 +20,13 @@ function Homepage() {
                         </div>
                         <div className="col-md-4 fpimgMain">
                             <center>
+                                <Link to={"/schedule"} className="notUnderlined">
                                 <img className="col-6" src="Images/cal.png" />
                                 <br />
                                 <h4 className="makeGreen">
                                     Find community
                                 </h4>
+                                </Link>
                             </center>
                         </div>
                         <div className="col-md-4 fpcard">

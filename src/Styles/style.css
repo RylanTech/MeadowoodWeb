@@ -16,9 +16,9 @@ body {
 .first-page {
     color: white;
 }
-.fpr1 {
-  /* margin-top: 10px; */
-}
+/* .fpr1 {
+  margin-top: 10px;
+} */
 .fpr2 {
   margin-top: 70px;
 }
@@ -82,7 +82,7 @@ width: 100%;
   background-color: black;
 }
 .makeGreen {
-  color: #d3df65 ;
+  color: #d3df65;
 }
 
 /* ministries */
@@ -123,6 +123,21 @@ width: 100%;
 }
 .cara {
   max-width: 1400px;
+}
+
+/* Schedule */
+.eItem {
+  background-color: #000;
+  border: 2px white solid;
+}
+.vertical-menu {
+  margin-top: 50px;
+}
+.eventDes {
+  text-align: left;
+}
+.eventAdd {
+  text-align: left;
 }
 
 /* Photo fading */
