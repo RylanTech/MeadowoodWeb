@@ -9,9 +9,9 @@ function Homepage() {
                     <Row className="fpr1">
                         <div className="col-md-4 fpcard clock">
                             <center>
-                                <img className="col-6 fpimg" src="Images/clock2.png" />
+                                <img className="col-4 fpimg" src="Images/clock2.png" />
                                 <br />
-                                <h4 className="makeGreen">
+                                <h4 className="mainLink">
                                     10am Sunday School
                                     <br />
                                     11am Worship
@@ -23,19 +23,19 @@ function Homepage() {
                                 <Link to={"/schedule"} className="notUnderlined">
                                 <img className="col-6" src="Images/cal.png" />
                                 <br />
-                                <h4 className="makeGreen">
-                                    Find community
+                                <h4 className="mainLink">
+                                    Our events
                                 </h4>
                                 </Link>
                             </center>
                         </div>
                         <div className="col-md-4 fpcard">
                             <center>
-                                <a target="_blank" href="https://www.youtube.com/@pastordunn" className="ytLink">
-                                    <img className="col-6 fpimg yt" src="Images/youtube.png" />
+                                <a target="_blank" href="https://www.youtube.com/@pastordunn" className="ytLink mainLink">
+                                    <img className="col-4 fpimg" src="Images/youtube.png" />
                                     <br />
-                                    <h4 className="makeGreen">
-                                        Watch now!
+                                    <h4 className="mainLink">
+                                        We have streams every Sunday and Wednesday!
                                     </h4>
                                 </a>
                             </center>
@@ -45,13 +45,13 @@ function Homepage() {
             </div>
             <Container>
                 <Row className="fpr2">
-                    <center>
                         <div className="positioning1">
                             <p className="heading">
+                                <center>
                                 Get connected!
+                                </center>
                             </p>
                         </div>
-                    </center>
                 </Row>
                 {/* </Container> */}
                 <Link to={"/kids"}>
@@ -59,7 +59,7 @@ function Homepage() {
                         <img className="fphimg clock" src="Images/kids.png" />
                         <div className="text">
                             <center>
-                                <h1>Kids!</h1>
+                                <h1>Kids</h1>
                             </center>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function Homepage() {
                         <img className="fphimg" src="Images/youth.png" />
                         <div className="text">
                             <center>
-                                <h1>Youth!</h1>
+                                <h1>Youth</h1>
                             </center>
                         </div>
                     </div>
@@ -79,17 +79,17 @@ function Homepage() {
                         <img className="fphimg" src="Images/youngadults.png" />
                         <div className="text">
                             <center>
-                                <h1>Young Adults!</h1>
+                                <h1>Young Adults</h1>
                             </center>
                         </div>
                     </div>
                 </Link>
                 <Link to={"/foodpantry"}>
                     <div className="fadein">
-                        <img wclassName="fphimg" src="Images/foodpantry.png" />
+                        <img className="fphimg" src="Images/foodpantry.png" />
                         <div className="text">
                             <center>
-                                <h1>Food Pantry!</h1>
+                                <h1>Benevolence</h1>
                             </center>
                         </div>
                     </div>

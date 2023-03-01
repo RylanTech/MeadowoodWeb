@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom"
 function Home() {
   return (
     <div>
-      <Navbar className="nav-color" expand="lg" variant="light">
+      <Navbar className="almostWhite" expand="lg" variant="light">
         <Container>
           <img className="nav-img" src="Images/5.png" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -12,7 +12,7 @@ function Home() {
             <Nav >
               <Link className="nav-link hover-effect" to="/">Home</Link>
               {/* <Link className="nav-link hover-effect" to="/ministries">Ministries</Link> */}
-              <Link className="nav-link hover-effect" to="/schedule">Schedule</Link>
+              <Link className="nav-link hover-effect" to="/schedule">Events</Link>
               <Link className="nav-link hover-effect" to="/about">About us</Link>
               <NavDropdown title="Ministries" id="basic-nav-dropdown">
                 <Link to="/kids" className="notUnderlined">

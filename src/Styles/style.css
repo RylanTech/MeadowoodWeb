@@ -1,15 +1,23 @@
 * {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: white;
 }
 /* Navbar */
 .nav-img {
     width: 50%;
 }
-.navbar {
-  background-color: white;
+
+/* colors */
+.black {
+  background-color: black!important;
+}
+.white {
+  background-color: white!important;
+}
+.almostWhite {
+  background-color: rgb(234, 234, 234)!important;
 }
 
 /* Page 1 */
@@ -36,13 +44,14 @@ body {
 }
 .heading {
   font-size: 20px;
-  background-color: #2EB0EA;
-  color: #d3df65;
+  background-color: #dedede;
+  color: #000000;
   padding: 7px;
-  width: 250px;
+  width: 200px;
 } 
 .fphimg {
-width: 100%;
+  width: 100%;
+  border-radius: 20px;
 }
 .containImg {
   position: relative;
@@ -50,8 +59,9 @@ width: 100%;
   color: white;
 }
 .positioning1 {
-  position: absolute;
-  margin-top: 10px;
+  position:absolute;
+  margin-top: -15px;
+  margin-left: 20px;
   z-index: 2;
 }
 .ytLink {
@@ -77,13 +87,14 @@ width: 100%;
 .notUnderlined {
   text-decoration: none;
 }
-.fprow {
-  /* background-color: #2EB0EA; */
+/* .fprow {
+  background-color: #2EB0EA;
   background-color: black;
+} */
+.mainLink:hover {
+  color: #b4b4b4;
 }
-.makeGreen {
-  color: #d3df65;
-}
+
 
 /* ministries */
 .crd {
@@ -92,7 +103,7 @@ width: 100%;
 }
 .slideImg {
   height: 650px;
-  opacity: 50%;
+  opacity: 80%;
 }
 .slideLabel {
   font-size: 55px;
@@ -127,8 +138,10 @@ width: 100%;
 
 /* Schedule */
 .eItem {
-  background-color: #000;
-  border: 2px white solid;
+  border: 2px rgb(99, 99, 99) solid;
+  border-top: none;
+  border-radius: 20px!important;
+  margin: 10px;
 }
 .vertical-menu {
   margin-top: 50px;
@@ -143,16 +156,19 @@ width: 100%;
 /* Photo fading */
 .fadein {
   position: relative;
+  background-color: #000;
+  margin: 5px 0px;
+  border-radius: 20px;
+
 }
 .fadein img {
   width: 100%;
   opacity: 1;
-  margin: 40px 0px;
   transition: opacity 0.3s ease-in-out;
   -webkit-transition: opacity 0.3s ease-in-out;
 }
 .fadein:hover img {
-  opacity: 0.3;
+  opacity: 0.7;
 }
 .fadein .text {
   position: absolute;
@@ -185,7 +201,7 @@ width: 100%;
   .heading {
     padding: 20px;
     font-size: 30px;
-    width: 600px;
+    width: 350px;
   }
 }
 @media (min-width: 992px) {
@@ -201,6 +217,7 @@ width: 100%;
     }
     .heading {
       font-size: 40px;
+      width: 550px;
     }
     .miniHeader {
       font-size: 50px;

@@ -15,7 +15,7 @@ function Schedule() {
         } else {
             return events.map((event) => {
                 return (
-                    <ListGroup.Item className='eItem' key={event.eventId}>
+                    <ListGroup.Item className='eItem almostWhite' key={event.eventId}>
                         <h2>
                             {event.title}
                         </h2>
