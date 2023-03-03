@@ -6,36 +6,41 @@ function Homepage() {
         <div className="first-page">
             <div className="fprow">
                 <Container>
-                    <Row className="fpr1">
+                    <Row>
+                    <img src="Images/bg2.jpg"/>
+                    </Row>
+                    <Row className="fpr1Content">
                         <div className="col-md-4 fpcard clock">
                             <center>
-                                <img className="col-4 fpimg" src="Images/clock2.png" />
-                                <br />
-                                <h4 className="mainLink">
-                                    10am Sunday School
+                                <Link to={"/schedule"} className="notUnderlined mainLink">
+                                    {/* <img className="col-4 fpimg" src="Images/clock2.png" /> */}
                                     <br />
-                                    11am Worship
-                                </h4>
+                                    <h4 className="mainText">
+                                        10am Sunday School
+                                        <br />
+                                        11am Worship
+                                    </h4>
+                                </Link>
                             </center>
                         </div>
                         <div className="col-md-4 fpimgMain">
                             <center>
-                                <Link to={"/schedule"} className="notUnderlined">
-                                <img className="col-6" src="Images/cal.png" />
-                                <br />
-                                <h4 className="mainLink">
-                                    Our events
-                                </h4>
+                                <Link to={"/schedule"} className="underlined mainLink">
+                                    <img className="col-6" src="Images/cal.png" />
+                                    <br />
+                                    <h4 className="mainText">
+                                        Our events
+                                    </h4>
                                 </Link>
                             </center>
                         </div>
                         <div className="col-md-4 fpcard">
                             <center>
                                 <a target="_blank" href="https://www.youtube.com/@pastordunn" className="ytLink mainLink">
-                                    <img className="col-4 fpimg" src="Images/youtube.png" />
+                                    {/* <img className="col-4 fpimg" src="Images/youtube.png" /> */}
                                     <br />
-                                    <h4 className="mainLink">
-                                        We have streams every Sunday and Wednesday!
+                                    <h4 className="mainText underlined">
+                                        View Services
                                     </h4>
                                 </a>
                             </center>
@@ -45,13 +50,13 @@ function Homepage() {
             </div>
             <Container>
                 <Row className="fpr2">
-                        <div className="positioning1">
-                            <p className="heading">
-                                <center>
+                    <div className="positioning1">
+                        <p className="heading">
+                            <center>
                                 Get connected!
-                                </center>
-                            </p>
-                        </div>
+                            </center>
+                        </p>
+                    </div>
                 </Row>
                 {/* </Container> */}
                 <Link to={"/kids"}>

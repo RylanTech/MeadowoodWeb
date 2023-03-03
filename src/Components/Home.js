@@ -9,38 +9,38 @@ function Home() {
           <img className="nav-img" src="Images/5.png" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav >
-              <Link className="nav-link hover-effect" to="/">Home</Link>
+            <Nav>
+              <Link className="nav-link hover-effect nvbr" to="/">Home</Link>
               {/* <Link className="nav-link hover-effect" to="/ministries">Ministries</Link> */}
-              <Link className="nav-link hover-effect" to="/schedule">Events</Link>
-              <Link className="nav-link hover-effect" to="/about">About us</Link>
-              <NavDropdown title="Ministries" id="basic-nav-dropdown">
+              <Link className="nav-link hover-effect nvbr" to="/schedule">Events</Link>
+              <Link className="nav-link hover-effect nvbr" to="/about">About us</Link>
+              <NavDropdown title="Ministries" id="basic-nav-dropdown" className="nvbr">
                 <Link to="/kids" className="notUnderlined">
                   <NavDropdown.Item href="#action/3.1">
                     Kids
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/youth" className="notUnderlined">
+                <Link to="/youth" className="notUnderlined nvbr">
                   <NavDropdown.Item href="#action/3.2">
                     Youth
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/youngadults" className="notUnderlined">
+                <Link to="/youngadults" className="notUnderlined nvbr">
                   <NavDropdown.Item href="#action/3.3">
                     Young Adults
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/mensgroup" className="notUnderlined">
+                <Link to="/mensgroup" className="notUnderlined nvbr">
                   <NavDropdown.Item href="#action/3.4">
                     Men's group
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/womansgroup" className="notUnderlined">
+                <Link to="/womansgroup" className="notUnderlined nvbr">
                   <NavDropdown.Item href="#action/3.4">
                     Woman's group
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/foodpantry" className="notUnderlined">
+                <Link to="/foodpantry" className="notUnderlined nvbr">
                   <NavDropdown.Item href="#action/3.4">
                     Food Pantry
                   </NavDropdown.Item>
@@ -50,8 +50,8 @@ function Home() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <NavDropdown title="Donate" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="https://www.paypal.com/donate?token=dAPUbR6l-8mcvWRdRvxLGBSAqI6Cbs4eHsT276tLRzHpL-IdjwQrm2uXC07XZMmK97Y9SRiPCcQRuLyN" target="_top">
+              <NavDropdown  className="nvbr" title="Donate" id="basic-nav-dropdown">
+                  <NavDropdown.Item className="nvbr" href="https://www.paypal.com/donate?token=dAPUbR6l-8mcvWRdRvxLGBSAqI6Cbs4eHsT276tLRzHpL-IdjwQrm2uXC07XZMmK97Y9SRiPCcQRuLyN" target="_top">
                     Paypal
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">

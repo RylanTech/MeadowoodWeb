@@ -49,10 +49,13 @@ function Ladies() {
             <Container>
                 <Row>
                     <center>
+                        <div className="verse">
+                        <img src="Images/bg1.svg"/>
                         <div className="miniHeader col-10">
                             "God is in the midst of her; she shall not be moved; God will help her when morning dawns."
                             <br />
                             -Proverbs 22:6 ESV
+                        </div>
                         </div>
                     </center>
                 </Row>

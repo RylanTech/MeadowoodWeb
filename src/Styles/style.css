@@ -1,5 +1,6 @@
 * {
   color: rgb(0, 0, 0);
+  font-family: 'PT Sans', sans-serif;
 }
 body {
   background-color: white;
@@ -7,6 +8,14 @@ body {
 /* Navbar */
 .nav-img {
     width: 50%;
+}
+.nvbr a {
+  font-family: 'Oswald', sans-serif!important;
+  font-size: 20px;
+}
+.nav-link {
+  font-family: 'Oswald', sans-serif!important;
+  font-size: 20px;
 }
 
 /* colors */
@@ -24,9 +33,13 @@ body {
 .first-page {
     color: white;
 }
-/* .fpr1 {
-  margin-top: 10px;
-} */
+.fpr1 {
+  padding: 150px 0px;
+}
+.fpr1Content {
+  padding: 70px 0px;
+  /* background-color: black; */
+}
 .fpr2 {
   margin-top: 70px;
 }
@@ -42,6 +55,9 @@ body {
 .fpimgMain {
   margin: 30px 0px;
 }
+/* .mainText {
+  color: white!important;
+} */
 .heading {
   font-size: 20px;
   background-color: #dedede;
@@ -74,12 +90,14 @@ body {
 .ytLink3 {
   font-size: 50px;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid #b4b4b4;
+  color: #000;
+  border-radius: 20px;
   padding: 15px 40px;
-  border-radius: 25px;
 }
 .ytLink3:hover {
-  background-color: aliceblue;
+  background-color: rgb(181, 181, 181);
+  color: #313131;
 }
 .ytLinkText {
   margin-top: 30px;
@@ -91,10 +109,19 @@ body {
   background-color: #2EB0EA;
   background-color: black;
 } */
-.mainLink:hover {
+.mainText {
+  max-width: 300px;
+}
+.mainLink:hover h4 {
   color: #b4b4b4;
 }
-
+.underlined {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.underlined:hover {
+  text-decoration-color: #b4b4b4;
+}
 
 /* ministries */
 .crd {
@@ -121,8 +148,21 @@ body {
   margin-top: 10px;
 }
 .miniHeader {
-  margin: 200px 0px;
-  font-size: 30px;
+  padding: 200px 0px;
+  font-size: 25px;
+  position: absolute;
+  max-width: 1400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.verse {
+  max-height: 1000px;
+}
+.miniHTxt {
+  color: white;
+  margin: 0px 50px;
+  max-width: 700px;
 }
 .miniRow3{
   background-color: white;
@@ -134,6 +174,10 @@ body {
 }
 .cara {
   max-width: 1400px;
+}
+.verse {
+  position: relative;
+  text-align: center;
 }
 
 /* Schedule */
@@ -152,6 +196,32 @@ body {
 .eventAdd {
   text-align: left;
 }
+.helloPng {
+  opacity: .4;
+  width: 100%;
+  max-width: 1400px;
+}
+.sr1 {
+  background-color: #292929;
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 1400px;
+}
+.helloTxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.stxt {
+  color: white;
+  text-align: left;
+}
+.sheader {
+  color: white;
+  font-size: 30px;
+}
 
 /* Photo fading */
 .fadein {
@@ -164,11 +234,11 @@ body {
 .fadein img {
   width: 100%;
   opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
 }
 .fadein:hover img {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .fadein .text {
   position: absolute;
@@ -193,15 +263,24 @@ body {
     margin: 0px 0px;
   } */
   .fpcard {
-    margin: 30px 0px;
+    margin: 70px 0px 30px 0px;
+  }
+  .mainLink {
+    max-width: none;
   }
   .slideImg {
-    height: 800px;
+    height: 1000px;
   }
   .heading {
     padding: 20px;
     font-size: 30px;
     width: 350px;
+  }
+  .stxt {
+    font-size: 25px;
+  }
+  .sheader {
+    font-size: 35px;
   }
 }
 @media (min-width: 992px) {

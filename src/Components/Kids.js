@@ -46,17 +46,18 @@ function Kids() {
                 </Carousel>
             </div>
             </center>
-            <Container>
-                <Row>
+                <Row className="col-12">
                     <center>
+                        <div className="verse">
+                        <img src="Images/bg1.svg"/>
                         <div className="miniHeader col-10">
                             "Train up a child in the way he should go; even when he is old he will not depart from it."
                             <br />
                             -Proverbs 22:6 ESV
                         </div>
+                        </div>
                     </center>
                 </Row>
-            </Container>
             <div className="miniRow3">
                 <Container>
                     <div className="r3Text">

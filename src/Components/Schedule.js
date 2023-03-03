@@ -22,7 +22,7 @@ function Schedule() {
                         <div className='eventTime'>
                             {event.day} at {event.time}
                         </div>
-                        <br/>
+                        <br />
                         <div className='eventDes'>
                             {event.description}
                         </div>
@@ -41,25 +41,44 @@ function Schedule() {
         }
     }
 
-return (
-    <>
-        <Container>
-            <Row>
-                <center>
-                <ListGroup className="align-self-start col-12">
-                    <div className='vertical-menu'>
-                        <EventContext.Consumer>
-                            {({ events }) => (
-                                list(events)
-                            )}
-                        </EventContext.Consumer>
-                    </div>
-                </ListGroup>
-                </center>
-            </Row>
-        </Container>
-    </>
-)
-    }
+    return (
+        <>
+            <center>
+            <div className='sr1'>
+                <img className='helloPng' src='Images/hello.png' />
+                <div className='helloTxt'>
+                        <div className='stxt'>
+                            <div className='sheader'>
+                                Come join us!
+                            </div>
+                            Sunday's at 10am - Sunday School <br/>
+                            <br />
+                            Sunday's at 11am - Morning Worship <br/>
+                            <br />
+                            Sunday's at 11am - Children's Church <br/>
+                            <br />
+                            Wednesday's at 7pm - Family Night <br/>
+                        </div>
+                </div>
+            </div>
+            </center>
+            <Container>
+                <Row>
+                    <center>
+                        <ListGroup className="align-self-start col-12">
+                            <div className='vertical-menu'>
+                                <EventContext.Consumer>
+                                    {({ events }) => (
+                                        list(events)
+                                    )}
+                                </EventContext.Consumer>
+                            </div>
+                        </ListGroup>
+                    </center>
+                </Row>
+            </Container>
+        </>
+    )
+}
 
 export default Schedule

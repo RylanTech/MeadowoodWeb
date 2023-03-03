@@ -49,10 +49,13 @@ function Youth() {
             <Container>
                 <Row>
                     <center>
+                        <div className="verse">
+                        <img src="Images/bg1.svg"/>
                         <div className="miniHeader col-10">
                             "Let no one despise you for your youth, but set the believers an example in speech, in conduct, in love, in faith, in purity."
                             <br />
                             -1 Timothy 4:12 ESV
+                        </div>
                         </div>
                     </center>
                 </Row>

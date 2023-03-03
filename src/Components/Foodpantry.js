@@ -49,10 +49,13 @@ function Foodpantry() {
             <Container>
                 <Row>
                     <center>
+                        <div className="verse">
+                        <img src="Images/bg1.svg"/>
                         <div className="miniHeader col-10">
                             "Whoever is generous to the poor lends to the Lord, and he will repay him for his deed."
                             <br />
                             -Proverbs 19:17 ESV
+                        </div>
                         </div>
                     </center>
                 </Row>

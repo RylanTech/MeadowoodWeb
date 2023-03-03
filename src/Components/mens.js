@@ -49,10 +49,13 @@ function Mens() {
             <Container>
                 <Row>
                     <center>
+                        <div className="verse">
+                        <img src="Images/bg1.svg"/>
                         <div className="miniHeader col-10">
                             "A man who is kind benefits himself, but a cruel man hurts himself."
                             <br />
                             -Proberbs 11:17 ESV
+                        </div>
                         </div>
                     </center>
                 </Row>
