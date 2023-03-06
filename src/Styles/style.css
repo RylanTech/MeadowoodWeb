@@ -17,6 +17,10 @@ body {
   font-family: 'Oswald', sans-serif!important;
   font-size: 20px;
 }
+.COG {
+  font-family: 'Oswald', sans-serif!important;
+  font-size: 20px;
+}
 
 /* colors */
 .black {
@@ -199,6 +203,7 @@ body {
 .helloPng {
   opacity: .4;
   width: 100%;
+  height: 700px;
   max-width: 1400px;
 }
 .sr1 {
@@ -282,6 +287,9 @@ body {
   .sheader {
     font-size: 35px;
   }
+  .helloPng {
+    height: 1100px;
+  }
 }
 @media (min-width: 992px) {
     .nav-img {
@@ -304,6 +312,9 @@ body {
 }
 @media (min-width: 1200px) {
     .slideImg {
+      height: 1200px;
+    }
+    .helloPng {
       height: 1200px;
     }
 }

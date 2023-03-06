@@ -6,7 +6,7 @@ function Home() {
     <div>
       <Navbar className="almostWhite" expand="lg" variant="light">
         <Container>
-          <img className="nav-img" src="Images/5.png" />
+          <img className="nav-img" src="Images/mwlogo2.png" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
@@ -50,8 +50,8 @@ function Home() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <NavDropdown  className="nvbr" title="Donate" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="nvbr" href="https://www.paypal.com/donate?token=dAPUbR6l-8mcvWRdRvxLGBSAqI6Cbs4eHsT276tLRzHpL-IdjwQrm2uXC07XZMmK97Y9SRiPCcQRuLyN" target="_top">
+              <NavDropdown className="nvbr" title="Donate" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="https://www.paypal.com/donate?token=dAPUbR6l-8mcvWRdRvxLGBSAqI6Cbs4eHsT276tLRzHpL-IdjwQrm2uXC07XZMmK97Y9SRiPCcQRuLyN" target="_top">
                     Paypal
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
